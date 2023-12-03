@@ -188,16 +188,7 @@ btnLoan.addEventListener("click", function (e) {
   inputLoanAmount.value = "";
 });
 
-// Общий баланс длинно
-// const accMov = accounts.map(function (acc) {
-//   return acc.movements;
-// });
-// const allMov = accMov.flat();
 
-// const allBalance = allMov.reduce(function (acc, mov) {
-//   return acc + mov;
-// }, 0);
-// console.log(allBalance);
 
 // Общий баланс коротко
 const overalBalance = accounts
